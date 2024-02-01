@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Users</title>
+</head>
+<body>
+    <h2>Пользователи, посетивышие данную страницу</h2>
+    <table>
+        <tr>
+            <th>Ник пользователя</th>
+            <th>email</th>
+        </tr>
+        <tr th:each="user: ${users}" >
+            <td th:text="${user.name}"></td>
+            <td th:text="${user.email}"></td>
+        </tr>
+    </table>
+
+    <h2>Сделайте отметку о посещении страницы</h2>
+    <form action="/users" method="post">
+        Ник: <input type="text" name="name"><br />
+        email: <input type="text" name="email"><br />
+        <button type="submit">Отметиться!</button>
+    </form>
+</body>
+</html>

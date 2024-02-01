@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="15afd958-43f5-4ebf-8da6-4a3ff2d138f0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../lesson4/hometask/demoMVC/src/main/java/ru/julie/demomvc/controllers/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/hometask/demoMVC/src/main/java/ru/julie/demomvc/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/hometask/demoMVC/src/main/java/ru/julie/demomvc/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/hometask/demoMVC/src/main/resources/templates/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/hometask/demoMVC/src/main/resources/templates/users.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/s4task1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/s4task1/src/main/java/ru/julie/s4task1/S4task1Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/s4task1/src/main/java/ru/julie/s4task1/controllers/AboutController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/s4task1/src/main/resources/static/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/s4task2/src/main/java/ru/julie/s4task2/controller/RandomController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/s4task2/src/main/resources/templates/random.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/s4task3/src/main/java/ru/julie/s4task3/controller/RandomController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/s4task3/src/main/resources/templates/random.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/s4task4/src/main/java/ru/julie/s4task4/controllers/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/s4task4/src/main/java/ru/julie/s4task4/models/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/s4task4/src/main/java/ru/julie/s4task4/services/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/s4task4/src/main/resources/templates/products.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2blHBnC12B5GY9r13ozEAu051Wc" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/yulen/Desktop/курсы/spring/spring_course/hw2",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.julie.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-249ae16d76d6-a618e4d4" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="15afd958-43f5-4ebf-8da6-4a3ff2d138f0" name="Changes" comment="" />
+      <created>1706782611856</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706782611856</updated>
+      <workItem from="1706782612926" duration="276000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
