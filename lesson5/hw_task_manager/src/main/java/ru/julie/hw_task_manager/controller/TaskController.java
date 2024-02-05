@@ -30,8 +30,8 @@ public class TaskController {
     }
 
     @PutMapping("/{id}")
-    public Task updateTaskStatus(@PathVariable Long id, @RequestBody Task.Status status) {
-        taskService.changeStatus(id, status);
+    public Task updateTaskStatus(@PathVariable Long id, @RequestBody Task task) {
+        taskService.changeStatus(id, task);
         return taskService.getTaskById(id).orElse(null);
     }
 

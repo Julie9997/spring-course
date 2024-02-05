@@ -75,10 +75,15 @@ public class TaskService {
         }
     }
 
-    public void changeStatus(Long id, Task.Status status) {
+    /**
+     * изменение статуса задачи
+     * @param id
+     * @param taskData
+     */
+    public void changeStatus(Long id, Task taskData) {
         Task task = getTaskById(id).orElse(null);
         if (task != null){
-            task.setStatus(status);
+            task.setStatus(taskData.getStatus());
             repository.save(task);
         }
     }
