@@ -53,10 +53,8 @@ public class NotesService {
         Optional<Note> optionalNote = notesRepository.findById(id);
         if (optionalNote.isPresent()) {
             Note note = optionalNote.get();
-            note.setId(noteDetails.getId());
             note.setHeader(noteDetails.getHeader());
             note.setContent(noteDetails.getContent());
-            note.setCreationDate(noteDetails.getCreationDate());
             return notesRepository.save(note);
         } else {
             throw new IllegalArgumentException("Заметка не найдена");

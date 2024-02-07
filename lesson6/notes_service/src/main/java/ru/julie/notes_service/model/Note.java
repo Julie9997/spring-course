@@ -10,7 +10,6 @@ import java.time.LocalDateTime;
 
 @Entity
 @RequiredArgsConstructor
-@NoArgsConstructor
 @Getter
 @Setter
 public class Note {
