@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Characters</title>
+    <link href="/styles.css" rel="stylesheet">
+</head>
+<body>
+<h1>All Characters</h1>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Status</th>
+            <th>Species</th>
+            <th>Type</th>
+            <th>Gender</th>
+            <th>Image</th>
+        </tr>
+        <tr th:each="character : ${characters}">
+            <td><a th:href="@{'/character/' + ${character.id}}">
+                <span th:text="${character.name}"></span>
+            </a></td>
+            <td th:text="${character.status}"></td>
+            <td th:text="${character.species}"></td>
+            <td th:text="${character.type}"></td>
+            <td th:text="${character.gender}"></td>
+            <td><img th:src="${character.image}" width="100" height="100"/></td>
+        </tr>
+    </table>
+</body>
+</html>

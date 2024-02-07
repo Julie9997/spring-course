@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">>
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${character.name}"></title>
+    <link href="/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="character-card">
+        <img th:src="${character.image}" width="250" height="250"/>
+        <p th:text="${character.name}"></p>
+        <p th:text="${character.status}"></p>
+        <p th:text="${character.species}"></p>
+        <p th:text="${character.type}"></p>
+        <p th:text="${character.gender}"></p>
+    </div>
+</body>
+</html>
