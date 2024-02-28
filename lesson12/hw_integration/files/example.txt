@@ -1,0 +1,1 @@
+ru.julie.notes_service.model.Note@36e5c33e
